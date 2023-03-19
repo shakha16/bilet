@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bilet {
+    width: 1200px;
+    height: 450px;
+    border: 2px solid black;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* transform: rotate(180deg); */
+}
+
+.back {
+    position: absolute;
+    top: 174px;
+    left: 550px;
+    width: 100px;
+    height: 100px;
+    opacity: 30%;
+    z-index: -23456;
+}
+
+.logotype {
+    width: 150px;
+    height: 150px;
+    mix-blend-mode: darken;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    padding: 0 35px 0 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    font-size: 25px;
+    margin-left: 45px;
+    /* margin-top: 65px; */
+}
+
+select {
+    all: unset;
+    font-family: normal;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+
+.check {
+    margin-top: 220px;
+    font-size: 30px;
+    margin-left: -218px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fnt {
+    font-size: 13px;
+    font-weight: 900;
+    color: blue;
+}
+
+.bilet-top {
+    width: 1200px;
+    height: 450px;
+    border: 2px solid black;
+    position: relative;
+    background-color: white;
+    display: flex;
+    margin: 0 auto 5px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    transform: rotate(180deg);
+}
+
+.bilet-middle {
+    width: 1200px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 0 auto 5px auto;
+    position: relative;
+}
+
+h1 {
+    font-size: 100px;
+    position: relative;
+    z-index: 3;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.one {
+    display: flex;
+    gap: 166px;
+}
+
+.two {
+    display: flex;
+    gap: 152px;
+}

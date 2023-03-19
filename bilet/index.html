@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/logo.jpg">
+    <title>Flymania</title>
+</head>
+
+<body>
+    <div class="bilet-top">
+        <img class="back" src="./img/logo.jpg" alt="">
+        <div class="logo1">
+            <img src="./img/logo.jpg" alt="" width="300px" height="300px">
+        </div>
+        <div class="description">
+            <h1>Flymania</h1>
+            <h2>Крылья не нужны что бы летать</h2>
+        </div>
+    </div>
+    <div class="bilet-middle">
+        <img class="back" src="./img/logo.jpg" alt="">
+    </div>
+    <div class="bilet">
+        <img class="back" src="./img/logo.jpg" alt="">
+        <div class="logo">
+            <img class="logotype" src="./img/logo.jpg" alt="">
+            <select id="company" style="text-align: center;">
+                <option value="">Flymania</option>
+                <option value="">Havo yollari</option>
+                <option value="">Turkish airlines</option>
+            </select>
+        </div>
+        <div class="info">
+            <div class="all">
+                <div class="one">
+                    <span class="flex">
+                        <span class="fnt">FROM / ОТКУДА / QAYERDAN</span>
+                        <h4 id="from"></h4>
+                    </span>
+                    <span class="flex">
+                        <span class="fnt">TO / КУДА / QAYERGA</span>
+                        <h4 id="to"></h4>
+                    </span>
+                </div>
+                <div class="two">
+                    <span class="flex">
+                        <span class="fnt">FLIGHT TIME / ВРЕМЯ ПОЛЁТА <br> / UCHISH VAQTI</span>
+                        <h4 id="time"></h4>
+                    </span>
+                    <span class="flex">
+                        <span class="fnt">ARRIVAL TIME / ВРЕМЯ ПРИЛЁТА <br> / QO'NISH VAQTI</span>
+                        <h4 id="time2"></h4>
+                    </span>
+                </div>
+            </div>
+            <span class="flex">
+                <span class="fnt">BAGAGE / БАГАЖ</span>
+                <select name="" id="bagage">
+                    <option>No</option>
+                    <option>15кг</option>
+                    <option>20кг</option>
+                    <option>25кг</option>
+                    <option>30кг</option>
+                    <option>35кг</option>
+                    <option>1pc</option>
+                    <option>2pc</option>
+                </select>
+            </span>
+        </div>
+        <span class="flex check">
+            <span class="fnt">TIME TO REGIST / ВРЕМЯ РЕГИСТРАЦИИ <br> / REGISTRATSIYA VAQTI</span>
+            <h4 id="chekIn"></h4>
+        </span>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
